@@ -12,6 +12,9 @@
 		933589CC2A082AF6005BDD9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933589CB2A082AF6005BDD9D /* ContentView.swift */; };
 		933589CE2A082AF8005BDD9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933589CD2A082AF8005BDD9D /* Assets.xcassets */; };
 		933589D12A082AF8005BDD9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933589D02A082AF8005BDD9D /* Preview Assets.xcassets */; };
+		93FA13162A1BEE8600CC4072 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FA13152A1BEE8600CC4072 /* Button.swift */; };
+		93FA13182A1BF14800CC4072 /* MainCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FA13172A1BF14800CC4072 /* MainCard.swift */; };
+		93FA131A2A1D4D3700CC4072 /* Festival.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FA13192A1D4D3700CC4072 /* Festival.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		933589CB2A082AF6005BDD9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		933589CD2A082AF8005BDD9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		933589D02A082AF8005BDD9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		93FA13152A1BEE8600CC4072 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		93FA13172A1BF14800CC4072 /* MainCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCard.swift; sourceTree = "<group>"; };
+		93FA13192A1D4D3700CC4072 /* Festival.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Festival.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,10 @@
 				933589CB2A082AF6005BDD9D /* ContentView.swift */,
 				930CD7232A0ACBBC000BECEB /* Empty.json */,
 				933589CD2A082AF8005BDD9D /* Assets.xcassets */,
+				93FA13152A1BEE8600CC4072 /* Button.swift */,
 				933589CF2A082AF8005BDD9D /* Preview Content */,
+				93FA13172A1BF14800CC4072 /* MainCard.swift */,
+				93FA13192A1D4D3700CC4072 /* Festival.swift */,
 			);
 			path = temproject;
 			sourceTree = "<group>";
@@ -141,7 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93FA13182A1BF14800CC4072 /* MainCard.swift in Sources */,
 				933589CC2A082AF6005BDD9D /* ContentView.swift in Sources */,
+				93FA13162A1BEE8600CC4072 /* Button.swift in Sources */,
+				93FA131A2A1D4D3700CC4072 /* Festival.swift in Sources */,
 				933589CA2A082AF6005BDD9D /* temprojectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
